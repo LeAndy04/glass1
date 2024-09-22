@@ -150,8 +150,8 @@ def encode(filmName,videoName,resolutionMulti,fpsMulti,packetSize):
         
     
 
-    videoCapture.release() #COMMENT THIS LINE AFTER FOR THE CONFIG FILE
-    cv.destroyAllWindows() #COMMENT THIS LINE OUT FOR THE CONFIG FILE, PUSH CONFIG AFTER GETTING PACKETS.
+    #videoCapture.release() #COMMENT THIS LINE AFTER FOR THE CONFIG FILE
+    #cv.destroyAllWindows() #COMMENT THIS LINE OUT FOR THE CONFIG FILE, PUSH CONFIG AFTER GETTING PACKETS.
 
     if scaledFrames != scaledFrameIterations:
         print(f"Frame Estimation Error. Predited:{str(scaledFrames)}, Actual:{str(scaledFrameIterations)}")
