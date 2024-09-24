@@ -22,7 +22,7 @@ def rescaleFrame(frame, scale):
 
 def encode(filmName,videoName,resolutionMulti,fpsMulti,packetSize):
 
-    videoLocation = r"/workspaces/glass1/videos/karaoke.mp4"
+    videoLocation = r"/workspaces/glass1/videos/Glass.mp4"
 
     videoCapture = cv.VideoCapture(videoLocation)
 
